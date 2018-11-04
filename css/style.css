@@ -203,6 +203,7 @@ figure {
 }
 
 .sf-menu a {
+  font-family: 'Allerta Stencil', sans-serif;
   color: rgba(255, 255, 255, 0.5);
   padding: 0.75em 1em !important;
   font-weight: normal;
@@ -243,7 +244,7 @@ figure {
 .sf-menu ul li:hover a,
 .sf-menu ul li.sfHover a,
 .sf-menu li.active a {
-  color: #fff;
+  color: #00aedb;
 }
 
 .sf-menu ul li:hover,
@@ -311,6 +312,8 @@ figure {
   position: relative;
   z-index: 2;
   font-size: 22px;
+  width: 150px;
+  height: 80px;
   /*text-transform: uppercase;*/
   margin-top: 5px;
   font-weight: 700;
@@ -321,7 +324,6 @@ figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-logo {
-    width: 100%;
     float: none;
     text-align: center;
   }
@@ -513,6 +515,7 @@ figure {
   background: #00aedb;
 }
 .heading-section h3 {
+  font-family: 'Allerta Stencil', sans-serif;
   font-size: 40px;
   font-weight: 300;
   position: relative;
@@ -624,7 +627,7 @@ figure {
 }
 
 #fh5co-portfolio {
-  padding: 7em 0;
+  padding: 3em 0;
   min-height: 500px;
 }
 @media screen and (max-width: 768px) {
@@ -711,12 +714,19 @@ figure {
   color: #000;
 }
 #fh5co-portfolio-list li a .case-studies-summary h2 {
-  color: #000;
-  margin-bottom: 0;
+  text-align: center;
+  color: #00aedbd9;
+  margin-bottom: 135px;
+  font-size: 50px;
+  background: #000000cf;
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
+  padding: 10px;
+
 }
 @media screen and (max-width: 768px) {
   #fh5co-portfolio-list li a .case-studies-summary h2 {
-    font-size: 20px;
+    /*font-size: 20px;*/
   }
 }
 #fh5co-portfolio-list li.two-third {
@@ -1401,7 +1411,7 @@ body, html {
 	height: 100% !important;
 }
 h2 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: "poppins-bold", sans-serif;
 	margin: 0 0 20px 0;
 	font-weight: 700;
 	font-size: 32px;
@@ -1409,9 +1419,9 @@ h2 {
 }
 h3 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 22px;
+	font-size: 30px;
 	font-weight: 700;
-	color: #333;
+	color: #00aedb;
 }
 h4 {
 	font-size: 18px;
@@ -1513,7 +1523,7 @@ hr {
 	background-color: #1b6d3f;
 }
 .section-title {
-	margin-bottom: 70px;
+	/*margin-bottom: 70px;*/
 }
 .section-title h2 {
 	position: relative;
